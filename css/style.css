@@ -1,0 +1,380 @@
+.brand-bar_umich {
+    background-color:  #00274c;
+    height: 32px;
+    width: 100%;
+    /* border-bottom: solid #ffcb05; */
+}
+
+.brand-bar_container {
+    margin: 0 auto;
+}
+
+.brand-bar_logo {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Victors Font", 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    /* margin-top: 2px; */
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+}   
+
+.brand-bar_logo:hover {
+    color: #ffcb05;
+    text-decoration: none;
+}
+
+.skipnav a {
+    position: absolute;
+    overflow: hidden;
+    background: #e0ffff;
+    top: -40px;
+    padding: 5px;
+    z-index: 1;     
+}
+.skipnav a:focus{
+    top:20px;
+}
+
+*:focus{
+    outline: 2px solid blue	;
+    border: 2px solid blue  ;
+}  
+
+nav a:hover, nav a:focus{
+    text-decoration: underline 2px;
+}
+
+.masthead {
+    background-color: ECE1ECFF;
+    box-shadow: 0 5px 8px rgba(0,0,0,.13),0 5px 8px rgba(0,0,0,.1);
+    max-width: 100%;
+    position: relative;
+
+}
+
+nav ul {
+    /* padding-top: 50px; */
+    display: flex;
+    /* position: relative; */
+    width: 100%;
+    /* z-index: 100; */
+    /* margin: 0 43px 0 0; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* display: block; */
+    /* position: relative; */
+    /* width: 100%; */ 
+    /* z-index: 100; */
+    /* margin-bottom: 0;
+    margin-top: 0; */
+    margin: 0 43px 0 0;
+}
+
+nav li {
+    padding-bottom: 5px;
+}
+
+li a {
+    color: #00274C;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (min-width: 1300px) {
+    /* Add your styles here */
+    .umich-logo {
+        max-width: 1248px;
+        margin: 0 auto; 
+        display: block; 
+    }
+}
+
+@media screen and (min-width: 800px){
+    .one {
+        grid-column: 2/span 2;
+        background-image: linear-gradient(#9BB1D4,  #FFCB05);
+        margin-right: 5%;
+        border-radius: 5%;
+        /* overflow: hidden; */
+        padding: 5%;
+    }
+    
+    .two {
+    grid-column: 1/span 2;
+    background-image: linear-gradient(#9BB1D4
+    , #FFCB05);
+    margin-left: 5%;
+    border-radius: 5%;
+    /* overflow: hidden; */
+    padding: 5%;
+}
+    
+    .three {
+        grid-column: 2/span 2;
+        background-image: linear-gradient(#9BB1D4, #FFCB05);
+        background-size: 70%;
+        margin-right: 5%;
+        border-radius: 5%;
+        padding: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding-top: 50px
+}
+
+nav li {
+    display:inline;
+    padding-left: 10px;
+    padding-right:20px;
+}
+
+nav li:not(:first-child) {
+    padding-bottom: 40px;
+} */
+
+/* .umich-logo {
+    padding-left: 1.1%;
+    padding-right: 10px;
+    width: auto; 
+    height: 60px; 
+} */
+
+/* nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}    */
+/* 
+
+
+  body{
+    margin: 0;
+    font-family:sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #131516;
+    text-align: left;
+  } */
+
+body{
+    margin: 0;
+    font-family:sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #131516;
+    text-align: left;
+  }
+
+.introduction {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("../images/backround.png"); */
+    background-image: url("../images/Winter\ Art\ Sculpture\ at\ UMSI.JPG");
+    height: auto;
+    text-align: center;
+    padding: 5%;
+    border-bottom: 0.25rem solid #ffcb05;
+    grid-column: 1/-1;
+}
+
+.introduction p {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    background: #00274C;
+    color: white;
+    font-size: 24px;
+    padding: 10px 50px;
+    text-align: center;
+    border: 7px outset #ffcb05;
+}
+
+ h1:first-of-type {
+    font-size: 200%;
+    color: #00274C;
+    line-height: 1;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -.016em;
+    margin: 1em;
+    /* border-bottom: 0.25rem solid #ffcb05; */
+    /* background: #00274C */
+  }
+
+  h2{
+    font-size: 32px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color:#00274C;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #00274C;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-top: 3px solid #ffcb05;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  footer a:visited {
+    color: lightgray;
+  }
+
+  footer a:hover {
+    color: #ffcb05;
+  }
+
+footer a:active {
+    color: white;
+  }
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 5fr 1fr;
+    gap:15px;
+    padding-bottom: 2%;
+}
+
+.one, .two, .three, .four{
+    grid-column:2;
+}
+
+.one {
+    grid-row: 2;
+}
+
+.two {
+    /* grid-column: 2/span 2; */
+    grid-row: 3;
+}
+
+.three {
+    /* grid-column: 1/span 2; */
+    grid-row: 4;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.images-grid {
+    display: grid;
+    grid-column: 2;
+    grid-row: auto; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.images-grid img {
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+html, .fourzerofour_body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+
+
+.fourzerofour_main {
+    font-family: "Victors Font", 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 50px;
+    color: #333;
+    flex: 1;
+}
+
+
+.fourzerofour_main .fourzerofour_headline {
+font-size: 3em;
+margin-bottom: 20px;
+}
+.fourzerofour_main .fourzerofour_paragraph {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+ a span {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.fourzerofour_main .fourzerofour_image{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.fourzerofour_footer {
+    background-color: #00274C;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-top: 3px solid #ffcb05;
+}
+
+
